@@ -120,6 +120,7 @@
 
       .badges {
         padding-bottom: 0.5rem;
+
         span {
           display: inline-block;
           color: v.$black-color;
@@ -129,6 +130,21 @@
 
           &:hover {
             text-decoration: underline;
+          }
+        }
+
+        a {
+          display: inline-block;
+          color: var(--global-text-color);
+          border: 1px solid var(--global-text-color);
+          border-radius: 0.2rem;
+          padding: 0.25rem 1rem;
+          margin: 0.1rem 0.25rem 0.1rem 0;
+          text-decoration: none;
+
+          &:hover {
+            color: var(--global-theme-color);
+            border-color: var(--global-theme-color);
           }
         }
       }
